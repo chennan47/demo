@@ -10,14 +10,14 @@ function myFunction() {
 
 $(document).ready(function(){
 	"use strict";
-//	var crypto = require('crypto');
-//    var request = require('request');
-//    var apiKey = "123";
-//    var secret="123";
-//    var timestamp = Math.round((new Date().getTime()/1000));
-//    var hash = crypto.createHmac('sha512', apiKey+secret+timestamp).digest('hex');
-//    var authHeaderValue = 'EAN APIKey=' +apiKey+ ',Signature=' + hash + ',timestamp=' + timestamp;
-//    console.log(crypto);
+	var crypto = require('crypto');
+    var request = require('request');
+    var apiKey = "123";
+    var secret="123";
+    var timestamp = Math.round((new Date().getTime()/1000));
+    var hash = crypto.createHmac('sha512', apiKey+secret+timestamp).digest('hex');
+    var authHeaderValue = 'EAN APIKey=' +apiKey+ ',Signature=' + hash + ',timestamp=' + timestamp;
+    console.log(crypto);
 
 	//datepicker
     var rangeText = function (start, end) {

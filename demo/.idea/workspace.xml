@@ -2,79 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e9bca93-ee27-4afa-b3d4-ddd160c9be90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/require.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expedia.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/nw.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/ajax-loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/bootsnav.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/bootsnav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/flaticon.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/flaticon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/fonts/slick.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/fonts/slick.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/fonts/slick.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/fonts/slick.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/fonts/slick.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/fonts/slick.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/fonts/slick.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/fonts/slick.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/lightpick.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/lightpick.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/linearicons.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/linearicons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/slick-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/slick-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/slick.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/slick.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Flaticon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/Flaticon.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Flaticon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/Flaticon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Flaticon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/Flaticon.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Flaticon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/Flaticon.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Linearicons-Free.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/Linearicons-Free.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Linearicons-Free.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/Linearicons-Free.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Linearicons-Free.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/Linearicons-Free.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Linearicons-Free.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/Linearicons-Free.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Linearicons-Free.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/Linearicons-Free.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/b1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/images/blog/b1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/b2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/images/blog/b2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/b3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/images/blog/b3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/clients/c1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/images/clients/c1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/clients/c2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/images/clients/c2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/clients/c3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/images/clients/c3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/clients/c4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/images/clients/c4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/counter/counter-banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/images/counter/counter-banner.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/explore/e1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/images/explore/e1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/explore/e2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/images/explore/e2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/explore/e3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/images/explore/e3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/explore/e4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/images/explore/e4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/explore/e5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/images/explore/e5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/explore/e6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/images/explore/e6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/explore/person.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/images/explore/person.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/welcome-hero/banner-ori.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/images/welcome-hero/banner-ori.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/welcome-hero/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/images/welcome-hero/banner.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/controls.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/controls.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/bootsnav.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/bootsnav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/feather.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/feather.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.counterup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/jquery.counterup.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/knockout.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/knockout.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/lightpick.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/lightpick.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/slick.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/slick.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/waypoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/waypoints.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logo/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/logo/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/demo.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,19 +24,61 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/assets/js/demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="380">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
+        <entry file="file://$PROJECT_DIR$/expedia.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="452">
+              <caret line="216" column="11" selection-start-line="216" selection-start-column="11" selection-end-line="216" selection-end-column="11" />
               <folding>
-                <element signature="e#23#92#0" expanded="true" />
+                <element signature="e#22#91#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3560">
+              <caret line="178" column="31" selection-start-line="178" selection-start-column="31" selection-end-line="178" selection-end-column="31" />
+              <folding>
+                <element signature="e#22#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rooms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="44" selection-end-line="5" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hotel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="38" />
+              <folding>
+                <element signature="e#22#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/static/assets/js/require.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
-              <caret line="4" column="17536" selection-start-line="4" selection-start-column="17536" selection-end-line="4" selection-end-column="17536" />
+              <caret line="4" column="17443" selection-start-line="4" selection-start-column="17443" selection-end-line="4" selection-end-column="17443" />
             </state>
           </provider>
         </entry>
@@ -117,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4820">
-              <caret line="212" column="22" lean-forward="true" selection-start-line="212" selection-start-column="22" selection-end-line="212" selection-end-column="22" />
+            <state relative-caret-position="1160">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -127,7 +106,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/nw.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="38" column="57" selection-start-line="34" selection-start-column="20" selection-end-line="38" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -146,6 +141,13 @@
       <find>static/im</find>
       <find>welcome</find>
       <find>search</find>
+      <find>address</find>
+      <find>892568</find>
+      <find>getHotels</find>
+      <find>'892568'</find>
+      <find>'13307850'</find>
+      <find>print</find>
+      <find>ratings</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -165,7 +167,13 @@
         <option value="$PROJECT_DIR$/assets/js/require.js" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/static/assets/js/demo.js" />
+        <option value="$PROJECT_DIR$/templates/nw.html" />
+        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/hotel.py" />
+        <option value="$PROJECT_DIR$/rooms.py" />
+        <option value="$PROJECT_DIR$/backup.py" />
+        <option value="$PROJECT_DIR$/expedia.py" />
       </list>
     </option>
   </component>
@@ -183,7 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,9 +222,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
   </component>
@@ -242,7 +251,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="expedia" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,7 +263,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Pan\Desktop\github\demo\expedia.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,8 +286,17 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
@@ -286,15 +304,15 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.042432815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -307,9 +325,6 @@
           <caret line="137" column="470" selection-start-line="137" selection-start-column="470" selection-end-line="137" selection-end-column="470" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/assets/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -377,24 +392,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/js/require.js">
+    <entry file="file://$USER_HOME$/Downloads/swagger.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="17536" selection-start-line="4" selection-start-column="17536" selection-end-line="4" selection-end-column="17536" />
+        <state relative-caret-position="-540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/swagger (1).yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-762174762/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="283" selection-start-line="283" selection-end-line="283" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/assets/js/demo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="380">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/js/require.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="17443" selection-start-line="4" selection-start-column="17443" selection-end-line="4" selection-end-column="17443" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4820">
-          <caret line="212" column="22" lean-forward="true" selection-start-line="212" selection-start-column="22" selection-end-line="212" selection-end-column="22" />
+        <state relative-caret-position="1160">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -402,12 +439,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/templates/nw.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="760">
+          <caret line="38" column="57" selection-start-line="34" selection-start-column="20" selection-end-line="38" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="38" />
           <folding>
-            <element signature="e#23#92#0" expanded="true" />
+            <element signature="e#22#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rooms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3560">
+          <caret line="178" column="31" selection-start-line="178" selection-start-column="31" selection-end-line="178" selection-end-column="31" />
+          <folding>
+            <element signature="e#22#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expedia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="216" column="11" selection-start-line="216" selection-start-column="11" selection-end-line="216" selection-end-column="11" />
+          <folding>
+            <element signature="e#22#91#0" expanded="true" />
           </folding>
         </state>
       </provider>

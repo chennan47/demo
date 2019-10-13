@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../static/assets/js/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/js-sha512/0.8.0/sha512.js"></script>
+
+</head>
+<body>
+    <button id="dmo">abc</button>
+</body>
+    <script>
+        $("#dmo").click(function(obj) {
+        var apiKey = "1m6lfng9fqd5fkv57r1c0cms70";
+        var secret="60mdjb6pisd5u";
+        var timestamp = Math.round((new Date().getTime()/1000));
+        var hash = sha512.hex(apiKey+secret+timestamp);
+<!--        var hash = 'ef9264f6a0d6b73452718686ca2dc72820351351091e00cb1e58838094e3eed9bdb00ee55da05e77aca1aa3b1660074bc30e73289338fb20d8aa00a053a6439e';-->
+        var authHeaderValue = 'EAN APIKey=' +apiKey+ ',Signature=' + hash + ',timestamp=' + timestamp;
+        console.log(authHeaderValue);
+
+            $.ajax({
+                url:'https://test.ean.com/2.3/regions?language=en-US&include=property_ids',
+                type:'GET',
+                dataType:'jsonp',
+<!--                beforeSend: function(xhr) {-->
+<!--                    xhr.setRequestHeader('Accept', 'application/json');-->
+<!--                    xhr.setRequestHeader('Accept-Encoding', 'gzip');-->
+<!--                    xhr.setRequestHeader('Authorization', authHeaderValue);-->
+<!--                    xhr.setRequestHeader('Content-Type', 'application/json');-->
+<!--                    xhr.setRequestHeader('User-Agent', 'Chrome/77.0.3865.120');-->
+<!--                },-->
+                headers: {
+                    'Accept': 'application/json',
+                    'Accept-Encoding': 'gzip',
+                    'Authorization': authHeaderValue,
+                    'Content-Type': 'application/json',
+                    'User-Agent': 'Chrome/77.0.3865.120',
+                },
+                success:function(data){
+                },
+                error: function (data){
+                    console.log(data)
+                },
+            })
+
+        });
+    </script>
+</html>
